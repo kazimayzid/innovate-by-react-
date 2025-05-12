@@ -6,7 +6,7 @@ export default function Navbar() {
     <>
       <div>
         <Container>
-        <div className="flex justify-between items-center mt-8 bg-teal-600">
+        <div className="flex justify-between items-center">
             <div>
               <a href="#Home">
                 <img src={logo} alt="#logo" />
@@ -23,7 +23,7 @@ export default function Navbar() {
             </div>
             <div className="flex items-center font-primary text-lg font-medium text-white gap-x-9">
                 <a href="#Login">Login</a>
-                <a className="px-12 py-5 bg-primaryButton rounded-[6px] text-[#2C2643]" href="#Register">Register</a>
+                <a className="px-12 py-5 bg-primaryButton rounded-[6px] text-[#2C2643] hover:bg-secondaryButton hover:text-white duration-[.6s]" href="#Register">Register</a>
             </div>
           </div>
         </Container>
