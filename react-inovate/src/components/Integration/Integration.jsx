@@ -7,7 +7,7 @@ import integrationLogo4 from "../../assets/integrationLogo4.png";
 import integrationLogo5 from "../../assets/integrationLogo5.png";
 import integrationLogo6 from "../../assets/integrationLogo6.png";
 import integrationLogo9 from "../../assets/integrationLogo9.png";
-import integrationLogo8 from "../../assets/integrationLogo8.png";
+import integrationLogo7 from "../../assets/integrationLogo7.png";
 
 export default function Integration() {
   return (
@@ -37,8 +37,16 @@ export default function Integration() {
               </a>
             </div>
 
-            <div>
-              <img src={integrationLogo9} alt="#logo" />
+            <div className="w-[697px] h-[470px] flex flex-wrap gap-x-[30px] gap-y-[35px]">
+              <img className="bg-white px-[64px] py-[44px] rounded-[12px]" src={integrationLogo1} alt="" />
+              <img className="bg-white px-[64px] py-[44px] rounded-[12px]" src={integrationLogo2} alt="" />
+              <img className="bg-white px-[30px] py-[44px] rounded-[12px]" src={integrationLogo3} alt="" />
+              <img className="bg-white w-[196px] h-[142px] px-[30px] py-[48px] rounded-[12px]" src={integrationLogo4} alt="" />
+              <img className="bg-white w-[196px] h-[142px] px-[38px] py-[33px] rounded-[12px]" src={integrationLogo5} alt="" />
+              <img className="bg-white w-[196px] h-[142px] px-[30px] py-[44px] rounded-[12px]" src={integrationLogo6} alt="" />
+              <img className="bg-white w-[196px] h-[142px] px-[38px] py-[33px] rounded-[12px]" src={integrationLogo5} alt="" />
+              <img className="bg-white w-[196px] h-[142px] px-[15px] py-[44px] rounded-[12px]" src={integrationLogo7} alt="" />
+              {/* <img src={integrationLogo9} alt="#logo" /> */}
             </div>
           </div>
         </Container>

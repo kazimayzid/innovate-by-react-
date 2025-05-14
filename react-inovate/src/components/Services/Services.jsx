@@ -4,6 +4,8 @@ import servicesIcon1 from "../../assets/servicesIcon1.png"
 import servicesIcon2 from "../../assets/servicesIcon2.png"
 import servicesIcon3 from "../../assets/servicesIcon3.png"
 import servicesIcon4 from "../../assets/servicesIcon4.png"
+import { FaArrowRightLong } from "react-icons/fa6";
+
 export default function Services() {
     const servicesData = [
         {
@@ -45,7 +47,8 @@ export default function Services() {
                         <img src={item.icon} alt="#icon" />
                         <h1 className="font-secondary font-bold text-[22px] leading-[34px] text-headingText mt-[26px] mb-[8px] group-hover:text-white">{item.title}</h1>
                         <p className="w-[258px] font-primary font-normal text-[16px] leading-[26px] tracking-[-.25%] text-paragraphText mt-2 mb-[26px] group-hover:text-white">{item.description}</p>
-                        <a className="font-primary font-medium text-[16px] leading-[26px] text-[#3639A4] group-hover:text-white hover:text-primaryButton duration-500" href="#Read More">{item.button}</a>
+                        <a className="font-primary font-medium text-[16px] leading-[26px] text-[#3639A4] group-hover:text-white hover:text-primaryButton duration-500" href="#Read More">{item.button}<FaArrowRightLong className="inline-block ml-1" />
+</a>
                     </div>
                     
                 ))}

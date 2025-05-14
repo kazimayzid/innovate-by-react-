@@ -10,6 +10,7 @@ import Facts from "./components/Facts/Facts";
 import Pricing from "./components/Pricing/Pricing";
 import Testimonial from "./components/Testimonial/Testimonial";
 import CTA from "./components/CTA/CTA";
+import Footer from "./components/Footer/Footer"
 
 import "./App.css";
 
@@ -30,6 +31,7 @@ function App() {
       <Pricing/>
       <Testimonial/>
       <CTA/>
+      <Footer/>
     </>
   );
 }

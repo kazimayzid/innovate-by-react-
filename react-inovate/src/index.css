@@ -10,3 +10,11 @@
     --color-headingText: #2C2643;
     --color-paragraphText: #645E76;
 }
+.slick-prev:before {
+    content: '←';
+    color: blue !important;
+}
+.slick-next:before {
+    content: '→';
+    color: blue !important;
+}
