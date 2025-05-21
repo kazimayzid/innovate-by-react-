@@ -35,13 +35,13 @@ export default function Services() {
     ]
     return <>
     <Container>
-        <div className="py-[140px]">
+        <div className="py-[40px] md:py-[140px]">
             <div className="flex flex-col items-center">
                 <p className="font-primary font-medium text-[20px] text-[#FF7364]">Our Services</p>
                 <h1 className="w-[587px] font-bold text-[46px] leading-[58px] text-headingText mt-1 mb-[80px] font-secondary text-center">How It Works</h1>
             </div>
 
-            <div className="flex justify-between"> 
+            <div className="flex md:flex-row flex-col justify-between"> 
                 {servicesData.map((item)=> (
                     <div className="p-[36px] border-1 border-[#DCE7FE] rounded-[10px] group hover:bg-secondaryButton duration-500 mb-[80px]">
                         <img src={item.icon} alt="#icon" />

@@ -29,18 +29,18 @@ export default function Content() {
     <>
       <div>
         <Container>
-          <div className="pt-[336px]">
-            <div className="flex justify-between">
-              <h1 className="w-[504px] font-bold text-[46px] leading-[58px] text-headingText font-secondary">
+          <div className="md:pt-[336px]">
+            <div className=" md:flex justify-between ">
+              <h1 className="md:w-[504px] text-center md:text-start font-bold text-3xl md:text-[46px] md:leading-[58px] text-headingText font-secondary mb-4 md:mb-0">
                 How simple is it to use our platform?
               </h1>
-              <p className="w-[530px] text-lg leading-[18px] text-paragraphText tracking-[-.2px] font-secondary">
+              <p className="md:w-[530px] text-center md:text-start text-lg leading-[18px] text-paragraphText tracking-[-.2px] font-secondary">
                 This Innovate Con guide explores the most popular platforms and
                 walks you through how to use them to grow your business.
               </p>
             </div>
 
-            <div className="flex justify-between mt-[116px]">
+            <div className="flex md:flex-row flex-col items-center gap-y-2 justify-between mt-[50px] md:mt-[116px]">
               {contentData.map((item) => (
                 <div className="w-max flex flex-col items-center text-center">
                   <img src={item.img} alt="#icon" />

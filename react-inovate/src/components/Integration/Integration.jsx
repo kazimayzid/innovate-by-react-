@@ -12,17 +12,17 @@ import integrationLogo7 from "../../assets/integrationLogo7.png";
 export default function Integration() {
   return (
     <>
-      <div className="mt-[55px] bg-[#F4FAFA] pt-[124px] pb-[120px]">
+      <div className="mt-[55px] bg-[#F4FAFA] pt-[30px] md:pt-[124px] pb-[30px] md:pb-[120px]">
         <Container>
-          <div className="flex justify-between items-center">
-            <div>
+          <div className=" md:flex justify-between items-center">
+            <div className="mb-5 md:mb-0 md:block flex flex-col items-center ">
               <p className="font-primary font-medium text-[20px] text-[#FF7364]">
                 Integrations
               </p>
-              <h1 className="w-[587px] font-bold text-[46px] leading-[58px] text-headingText mt-1 mb-[20px] font-secondary">
+              <h1 className="md:w-[587px] font-bold text-3xl md:text-[46px] md:leading-[58px] text-center md:text-start text-headingText mt-1 mb-[20px] font-secondary">
                 Easily integrate with your favorite apps
               </h1>
-              <p className="w-[533px] text-lg leading-[32px] text-paragraphText tracking-[-.45px] font-primary">
+              <p className="md:w-[533px] text-lg text-center md:text-start leading-[32px] text-paragraphText tracking-[-.45px] font-primary">
                 App integration, in a general sense, is the process of bringing
                 resources or capabilities from one application to another. As
                 the world of apps continues to evolve, app integration is
@@ -37,7 +37,7 @@ export default function Integration() {
               </a>
             </div>
 
-            <div className="w-[697px] h-[470px] flex flex-wrap gap-x-[30px] gap-y-[35px]">
+            <div className="hidden w-[697px] h-[470px] md:flex flex-wrap gap-x-[30px] gap-y-[35px]">
               <img className="bg-white px-[64px] py-[44px] rounded-[12px]" src={integrationLogo1} alt="" />
               <img className="bg-white px-[64px] py-[44px] rounded-[12px]" src={integrationLogo2} alt="" />
               <img className="bg-white px-[30px] py-[44px] rounded-[12px]" src={integrationLogo3} alt="" />

@@ -32,10 +32,10 @@ export default function Features() {
 
   return (
     <>
-      <div className="mt-[160px]">
+      <div className="mt-[70px] md:mt-[160px]">
         <Container>
-          <div className="flex justify-between relative">
-            <div className="relative w-max">
+          <div className=" md:flex justify-between relative">
+            <div className="hidden md:block relative w-max">
               <img src={featuresImg1} alt="img" />
               <img
                 className="absolute left-[-60px] top-[30px]"
@@ -65,14 +65,14 @@ export default function Features() {
             </div>
             <div>
               <div>
-                <h1 className="w-[553px] font-secondary font-bold text-[46px] leading-[46px] tracking-[-1px] text-headingText">
+                <h1 className="md:w-[553px] font-secondary font-bold text-[34px] md:text-[46px] md:text-start text-center leading-[46px] tracking-[-1px] text-headingText">
                   We provide features for your Business
                 </h1>
               </div>
               <div>
-                <div className="grid grid-cols-2 mt-16 gap-y-10">
+                <div className="flex flex-col items-center md:items-baseline-last md:grid grid-cols-2 mt-16 gap-y-10">
                   {featuresData.map((item) => (
-                    <div>
+                    <div className="flex flex-col items-center text-center md:text-start md:block">
                       <img src={item.icon} alt="img" />
                       <h1 className="font-secondary font-bold text-[22px] leading-[34px] tracking-[-.5%] text-headingText mt-[14px] mb-[6px]">
                         {item.title}
@@ -93,7 +93,7 @@ export default function Features() {
                 </div>
               </div>
             </div>
-            <img className="absolute top-[86px] left-[-65px] -z-2" src={featuresBgicon} alt="" />
+            <img className="hidden md:block absolute top-[86px] left-[-65px] -z-2" src={featuresBgicon} alt="" />
           </div>
         </Container>
       </div>

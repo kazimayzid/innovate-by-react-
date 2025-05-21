@@ -57,14 +57,14 @@ export default function Pricing() {
       <Container>
         <div className="mb-[160px]">
           <div className="flex flex-col items-center">
-            <h1 className="font-secondary font-bold text-[46px] leading-[58px] text-headingText w-[624px] text-center">
+            <h1 className="font-secondary font-bold text-2xl md:text-[46px] md:leading-[58px] text-headingText  md:w-[624px] text-center">
               Pricing Designed To Fit Your Business
             </h1>
-            <p className="font-secondary font-bold text-[24px] leading-[100%] text-[rgba(54,58,164,0.8)] mt-[39px] mb-[77px]">
+            <p className="font-secondary font-bold text-[24px] leading-[100%] text-[rgba(54,58,164,0.8)] mt-4 md:mt-[39px] mb-4 md:mb-[77px]">
               Monthly
             </p>
           </div>
-          <div className="flex justify-between">
+          <div className="flex flex-col gap-y-4 md:flex-row justify-between">
             {pricingData.map((item) => (
               <div className="border-[1px] border-[#DCE7FE] rounded-[20px] px-[40px] py-[60px] flex flex-col items-center group hover:bg-secondaryButton duration-500">
                 <img src={item.icon} alt="#icon" />
@@ -90,7 +90,7 @@ export default function Pricing() {
                 </ul>
                 </div>
                 <a
-                  className="font-primary font-medium text-lg leading-[20px] text-white px-[104px] py-[20px] bg-secondaryButton rounded-md mt-[40px] duration-500 hover:text-headingText group-hover:bg-primaryButton group-hover:text-headingText hover:bg-white"
+                  className="font-primary font-medium text-lg leading-[20px] text-white px-14 md:px-[104px] py-[20px] bg-secondaryButton rounded-md mt-[40px] duration-500 hover:text-headingText group-hover:bg-primaryButton group-hover:text-headingText hover:bg-white"
                   href="#"
                 >
                   {item.button}

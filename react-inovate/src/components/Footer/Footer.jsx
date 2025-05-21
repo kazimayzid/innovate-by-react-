@@ -16,7 +16,7 @@ export default function Footer() {
     <>
       <div className="bg-[#F7F7FC] pt-[124px]">
         <Container>
-          <div className="flex pb-[86px]">
+          <div className="flex flex-col md:flex-row pb-[86px]">
             <div>
               <a href="#">
                 <img src={footerLogo} alt="logo" />
@@ -47,7 +47,7 @@ export default function Footer() {
                 </a>
               </div>
             </div>
-            <div className="flex gap-[82px] ml-[109px]">
+            <div className="flex flex-col md:flex-row md:gap-[82px] md:ml-[109px]">
               <div>
                 <h1 className="font-primary font-medium text-lg leading-8 text-headingText mb-[20px]">
                   Product
@@ -83,7 +83,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="ml-[100px]">
+            <div className="md:ml-[100px]">
               <h1 className="font-primary font-medium text-lg leading-8 text-headingText mb-[20px]">
                 Get Latest Updates
               </h1>
@@ -103,8 +103,8 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="relative after:content-[''] after:absolute after:w-[1410px] after:h-[4px] after:left-0 after:top-0 after:bg-[#D2D2D233]">
-            <h1 className="font-primary font-normal text-[14px] leading-[20px] text-paragraphText pt-[24px] pb-[29px]">© 2024 Innovate - All Right Reserved</h1>
+          <div className="relative after:content-[''] after:absolute after:w-full md:after:w-[1410px] after:h-[4px] after:left-0 after:top-0 after:bg-[#D2D2D233]">
+            <h1 className="font-primary text-center md:text-left font-normal text-[14px] leading-[20px] text-paragraphText pt-[24px] pb-[29px]">© 2024 Innovate - All Right Reserved</h1>
           </div>
         </Container>
       </div>

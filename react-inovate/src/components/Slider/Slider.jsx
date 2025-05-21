@@ -24,12 +24,12 @@ function Sliders() {
               <div className="w-[124px] h-[124px] rounded-[50%] bg-[#C4C4C4] absolute top-[-80px] border-[10px] border-[#F7F7FC]"></div>
               <div>
                 <div>
-                  <p className="w-[567px] font-primary font-normal text-[22px] leading-[44px] text-[#6C6E81]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
+                  <p className="md:w-[567px] font-primary font-normal md:text-[22px] md:leading-[44px] text-[#6C6E81]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
                 </div>
                 <div className="mt-[37px] flex justify-between items-center">
                     <div>
-                      <h1 className="font-secondary font-bold text-[24px] leading-9 text-[#30344E]">Robert Fox</h1>
-                      <p className="font-primary font-normal text-[16px] leading-[26px] text-[#30344E]">Digital Marketer</p>
+                      <h1 className="font-secondary font-bold md:text-[24px] leading-9 text-[#30344E]">Robert Fox</h1>
+                      <p className="font-primary font-normal text-[16px] md:leading-[26px] text-[#30344E]">Digital Marketer</p>
                     </div>
                     <img src={Testimonialimg} alt="" />
                 </div>
@@ -41,12 +41,12 @@ function Sliders() {
               <div className="w-[124px] h-[124px] rounded-[50%] bg-[#C4C4C4] absolute top-[-80px] border-[10px] border-[#F7F7FC]"></div>
               <div>
                 <div>
-                  <p className="w-[567px] font-primary font-normal text-[22px] leading-[44px] text-[#6C6E81]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
+                  <p className="md:w-[567px] font-primary font-normal md:text-[22px] md:leading-[44px] text-[#6C6E81]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
                 </div>
                 <div className="mt-[37px] flex justify-between items-center">
                     <div>
-                      <h1 className="font-secondary font-bold text-[24px] leading-9 text-[#30344E]">Robert Fox</h1>
-                      <p className="font-primary font-normal text-[16px] leading-[26px] text-[#30344E]">Digital Marketer</p>
+                      <h1 className="font-secondary font-bold md:text-[24px] leading-9 text-[#30344E]">Robert Fox</h1>
+                      <p className="font-primary font-normal text-[16px] md:leading-[26px] text-[#30344E]">Digital Marketer</p>
                     </div>
                     <img src={Testimonialimg} alt="" />
                 </div>
@@ -59,12 +59,12 @@ function Sliders() {
               <div className="w-[124px] h-[124px] rounded-[50%] bg-[#C4C4C4] absolute top-[-80px] border-[10px] border-[#F7F7FC]"></div>
               <div>
                 <div>
-                  <p className="w-[567px] font-primary font-normal text-[22px] leading-[44px] text-[#6C6E81]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
+                  <p className="md:w-[567px] font-primary font-normal md:text-[22px] md:leading-[44px] text-[#6C6E81]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
                 </div>
                 <div className="mt-[37px] flex justify-between items-center">
                     <div>
-                      <h1 className="font-secondary font-bold text-[24px] leading-9 text-[#30344E]">Robert Fox</h1>
-                      <p className="font-primary font-normal text-[16px] leading-[26px] text-[#30344E]">Digital Marketer</p>
+                      <h1 className="font-secondary font-bold md:text-[24px] leading-9 text-[#30344E]">Robert Fox</h1>
+                      <p className="font-primary font-normal text-[16px] md:leading-[26px] text-[#30344E]">Digital Marketer</p>
                     </div>
                     <img src={Testimonialimg} alt="" />
                 </div>

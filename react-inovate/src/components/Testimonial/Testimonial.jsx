@@ -8,13 +8,13 @@ export default function Testimonial() {
     <>
       <div className="bg-[#F4FAFA]">
         <Container>
-          <div className="py-[200px] flex justify-between items-center">
+          <div className="py-4 md:py-[200px] md:flex justify-between items-center">
             <div className="left ">
-              <div className="">
-                <h1 className="w-[594px] font-secondary font-bold text-[46px] leading-[58px] text-headingText">
+              <div className="flex flex-col items-center">
+                <h1 className="md:w-[594px] text-center md:text-left font-secondary font-bold text-[46px] leading-[58px] text-headingText">
                   What they are talking about us?
                 </h1>
-                <p className="w-[503px] font-primary font-normal text-lg leading-8 tracking-[-.28%] text-[#645E76] mt-[20px] mb-[40px]">
+                <p className="md:w-[503px] text-center md:text-left font-primary font-normal text-lg leading-8 tracking-[-.28%] text-[#645E76] mt-[20px] mb-[40px]">
                   testimonials are evidence of customers talking about your
                   product or service in their own words. At their best, they are
                   authentic, descriptive.
@@ -49,7 +49,7 @@ export default function Testimonial() {
             </div>
 
 
-            <div className="left w-[687px]">
+            <div className="left w-full md:w-[687px] mt-16 md:mt-0">
                 <Slider />
             </div>
           </div>
