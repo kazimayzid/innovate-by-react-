@@ -43,7 +43,7 @@ export default function Services() {
 
             <div className="flex md:flex-row flex-col justify-between"> 
                 {servicesData.map((item)=> (
-                    <div className="p-[36px] border-1 border-[#DCE7FE] rounded-[10px] group hover:bg-secondaryButton duration-500 mb-[80px]">
+                    <div className="p-[36px] border-1 border-[#DCE7FE] rounded-[10px] group hover:bg-secondaryButton duration-500 mb-[80px] flex flex-col justify-center md:justify-start items-center md:items-start">
                         <img src={item.icon} alt="#icon" />
                         <h1 className="font-secondary font-bold text-[22px] leading-[34px] text-headingText mt-[26px] mb-[8px] group-hover:text-white">{item.title}</h1>
                         <p className="w-[258px] font-primary font-normal text-[16px] leading-[26px] tracking-[-.25%] text-paragraphText mt-2 mb-[26px] group-hover:text-white">{item.description}</p>

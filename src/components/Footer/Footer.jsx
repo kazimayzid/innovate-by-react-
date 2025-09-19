@@ -1,12 +1,7 @@
 import React from "react";
 import Container from "../Navbar/Layout/container";
 import footerLogo from "../../assets/footerlogo.png";
-import {
-  FaGoogle,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedin
-} from "react-icons/fa";
+import { FaGoogle, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { BiLogoTelegram } from "react-icons/bi";
 
 import NavItems from "../NavItems/NavItems";
@@ -14,14 +9,14 @@ import NavItems from "../NavItems/NavItems";
 export default function Footer() {
   return (
     <>
-      <div className="bg-[#F7F7FC] pt-[124px]">
+      <div className="bg-[#F7F7FC] pt-10 md:pt-[124px]">
         <Container>
-          <div className="flex flex-col md:flex-row pb-[86px]">
-            <div>
+          <div className="flex flex-col md:flex-row justify-center md:justify-start items-center md:items-start pb-[86px]">
+            <div className="flex flex-col justify-center md:justify-start md:items-start items-center">
               <a href="#">
                 <img src={footerLogo} alt="logo" />
               </a>
-              <p className="w-[263px] font-primary font-normal text-[16px] leading-[28px] text-paragraphText mt-[26px] mb-[24px]">
+              <p className="w-[250px] md:w-[263px] text-center md:text-start font-primary font-normal text-[16px] leading-[28px] text-paragraphText mt-[26px] mb-[24px]">
                 Build a modern and creative website with Innovate.
               </p>
               <div className="flex gap-[6px]">
@@ -47,23 +42,23 @@ export default function Footer() {
                 </a>
               </div>
             </div>
-            <div className="flex flex-col md:flex-row md:gap-[82px] md:ml-[109px]">
-              <div>
+            <div className="grid grid-cols-2  mt-7 md:mt-0 md:flex flex-col md:flex-row md:gap-[82px] md:ml-[109px]">
+              <div className="flex md:block flex-col items-center">
                 <h1 className="font-primary font-medium text-lg leading-8 text-headingText mb-[20px]">
                   Product
                 </h1>
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col items-center md:items-start gap-3">
                   <NavItems>Landingpages</NavItems>
                   <NavItems>Pricing</NavItems>
                   <NavItems>Benefits</NavItems>
                   <NavItems>Features</NavItems>
                 </div>
               </div>
-              <div>
+              <div className="flex md:block flex-col items-center">
                 <h1 className="font-primary font-medium text-lg leading-8 text-headingText mb-[20px]">
                   Company
                 </h1>
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col items-center md:items-start gap-3">
                   <NavItems>About</NavItems>
                   <NavItems>Privacy Policy</NavItems>
                   <NavItems>Terms & Conditions</NavItems>
@@ -71,11 +66,11 @@ export default function Footer() {
                   <NavItems>Contact</NavItems>
                 </div>
               </div>
-              <div>
-                <h1 className="font-primary font-medium text-lg leading-8 text-headingText mb-[20px]">
+              <div className="col-span-2 justify-self-center flex md:block flex-col items-center">
+                <h1 className=" font-primary font-medium text-lg leading-8 text-headingText mb-[20px]">
                   Resources
                 </h1>
-                <div className="flex flex-col gap-3">
+                <div className=" flex flex-col items-center md:items-start gap-3">
                   <NavItems>Guides and resources</NavItems>
                   <NavItems>Blog</NavItems>
                   <NavItems>Tools</NavItems>
@@ -83,7 +78,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="md:ml-[100px]">
+            <div className="mt-6 md:mt-0 text-center md:text-start md:ml-[100px]">
               <h1 className="font-primary font-medium text-lg leading-8 text-headingText mb-[20px]">
                 Get Latest Updates
               </h1>
@@ -99,12 +94,18 @@ export default function Footer() {
                   type="text"
                   placeholder="Your Email Address"
                 />
-                <a href="#"><div className="w-[36px] h-[36px] rounded-md bg-secondaryButton absolute top-[5px] right-[20px] flex justify-center items-center"><BiLogoTelegram className="text-white w-[25px] h-[25px]" /></div></a>
+                <a href="#">
+                  <div className="w-[36px] h-[36px] rounded-md bg-secondaryButton absolute top-[5px] right-[20px] flex justify-center items-center">
+                    <BiLogoTelegram className="text-white w-[25px] h-[25px]" />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
           <div className="relative after:content-[''] after:absolute after:w-full md:after:w-[1410px] after:h-[4px] after:left-0 after:top-0 after:bg-[#D2D2D233]">
-            <h1 className="font-primary text-center md:text-left font-normal text-[14px] leading-[20px] text-paragraphText pt-[24px] pb-[29px]">© 2024 Innovate - All Right Reserved</h1>
+            <h1 className="font-primary text-center md:text-left font-normal text-[14px] leading-[20px] text-paragraphText pt-[24px] pb-[29px]">
+              © 2024 Innovate - All Right Reserved
+            </h1>
           </div>
         </Container>
       </div>

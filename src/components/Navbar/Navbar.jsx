@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 import Container from "./Layout/container";
+import { RxCross1 } from "react-icons/rx";
 import { FaBars } from "react-icons/fa6";
 
 export default function Navbar() {
@@ -20,10 +21,16 @@ export default function Navbar() {
                 <img src={logo} alt="#logo" />
               </a>
               <div className="md:hidden block">
-                <FaBars
-                  onClick={handleClick}
+                {
+                  show ? <RxCross1 onClick={()=> setShow(!show)} className="text-white text-2xl " /> : <FaBars
+                  onClick={()=> setShow (!show)}
                   className="text-white text-2xl "
                 />
+                }
+                {/* <FaBars
+                  onClick={handleClick}
+                  className="text-white text-2xl "
+                /> */}
               </div>
             </div>
             <div className="hidden md:block">
@@ -57,7 +64,7 @@ export default function Navbar() {
           </div>
         </Container>
          {show && (
-            <div className="bg-[#14141657] h-screen ">
+            <div className="bg-[#14141600] h-screen ">
               <div>
                 <ul className="flex flex-col gap-y-5 mb-5 items-center md:flex gap-x-[50px] font-primary  text-3xl md:text-lg font-medium text-white">
                   <li>

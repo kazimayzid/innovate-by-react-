@@ -17,7 +17,7 @@ export default function Banner() {
               </p>
               <div className="mt-8 relative flex flex-col gap-y-2 items-center md:block">
                 <input
-                  className="md:w-[480px] py-5 borde pl-6 leading-[26px] bg-white outline-0 placeholder:text-gray-400 placeholder:leading-[26px] text-gray-500 rounded-[6px]"
+                  className="w-full md:w-[480px] py-5 borde pl-6 leading-[26px] bg-white outline-0 placeholder:text-gray-400 placeholder:leading-[26px] text-gray-500 rounded-[6px]"
                   type="text"
                   placeholder="Your business email"
                 />
@@ -29,7 +29,7 @@ export default function Banner() {
                 </a>
               </div>
             </div>
-            <div className="absolute bottom-[40px] md:bottom-[-276px] left-[-40px]">
+            <div className="absolute bottom-[30px] md:bottom-[-276px] left-[-40px]">
               <img src={laptopScreen} alt="#Laptop" />
             </div>
           </div>
