@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../Navbar/Layout/container";
-import footerLogo from "../../assets/footerlogo.png";
+import footerLogo from "../../assets/footerLogo.png";
 import { FaGoogle, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { BiLogoTelegram } from "react-icons/bi";
 
